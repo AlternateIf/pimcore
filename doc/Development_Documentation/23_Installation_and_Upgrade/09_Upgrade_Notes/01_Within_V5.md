@@ -51,7 +51,7 @@ on a tenant level. New structure:
 pimcore_ecommerce_framework:
     pricing_manager:
         tenants:
-            # the default tenant is mandatory and will be automatically be configured - below are default values
+            # the default tenant is mandatory and will be automatically configured - below are default values
             default:
                 enabled: true
                 pricing_manager_id: Pimcore\Bundle\EcommerceFrameworkBundle\PricingManager\PricingManager
