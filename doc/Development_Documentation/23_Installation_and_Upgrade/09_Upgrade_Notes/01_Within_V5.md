@@ -1,4 +1,7 @@
 # Upgrade Notes for Upgrades within Pimcore 5
+## Build 236 (2018-05-22)
+
+The modified method of the Pimcore\Bundle\EcommerceFrameworkBundle\CartManager\AbstractCart is now public and gets called upon calling setCount of cart items 
 
 ## Build 206 (2018-02-19)
 
