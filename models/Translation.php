@@ -319,7 +319,7 @@ final class Translation extends AbstractModel
         }
 
         $translationItem = self::getByKey($id, $domain, $create, $returnIdIfEmpty);
-        if ($translationItem instanceof self) {
+        if ($translationItem instanceof self && $translationItem->hasTranslation($language)) {
             return $translationItem->getTranslation($language);
         }
 
